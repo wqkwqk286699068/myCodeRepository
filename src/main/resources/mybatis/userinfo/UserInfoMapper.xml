@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootDemo.userinfo.dao.UserInfoDao">
+
+	<resultMap type="com.springbootDemo.userinfo.entity.UserInfoDO"
+		id="baseMap">
+		<result property="userAccountCode" column="user_AccountCode" />
+		<result property="EnglishName" column="English_Name" />
+		<result property="ChineseName" column="Chinese_Name" />
+		<result property="url" column="url" />
+		<result property="level" column="level" />
+		<result property="state" column="state" />
+		<result property="createDate" column="createDate" />
+		<result property="password" column="password" />
+	</resultMap>
+
+	<select id="getUserListAll" flushCache="true" resultMap="baseMap">
+		select *
+		from tb_userinfo
+	</select>
+	
+	<select id="getUserList" flushCache="true" resultMap="baseMap">
+		select *
+		from tb_userinfo where id = 1
+	</select>
+	
+
+</mapper>

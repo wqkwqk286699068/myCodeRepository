@@ -1,0 +1,6 @@
+com\springbootDemo\userinfo\dao\UserInfoDao.class
+com\springbootDemo\App.class
+com\springbootDemo\userinfo\service\Impl\UserInfoImpl.class
+com\springbootDemo\userinfo\entity\UserInfoDO.class
+com\springbootDemo\userinfo\service\UserInfoService.class
+com\springbootDemo\userinfo\controller\UserInfoController.class

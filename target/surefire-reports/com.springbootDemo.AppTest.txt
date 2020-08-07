@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.springbootDemo.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.226 s <<< FAILURE! - in com.springbootDemo.AppTest
+initializationError(com.springbootDemo.AppTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.IllegalStateException: SpringJUnit4ClassRunner requires JUnit 4.12 or higher.
+
